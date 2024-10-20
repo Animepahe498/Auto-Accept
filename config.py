@@ -7,13 +7,13 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "")  # ⚠️ Required
-    API_HASH = os.environ.get("API_HASH", "")  # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")  # ⚠️ Required
+    API_ID = os.environ.get("API_ID", "20860620")  # ⚠️ Required
+    API_HASH = os.environ.get("API_HASH", "25d2343b36fc5aea3604c6c50a8e2b59")  # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7941846162:AAERg_hUoaS7qA5o7LoqOfNc4PlmEnUvYoY")  # ⚠️ Required
 
     # database config
-    DB_URL = os.environ.get("DB_URL", "")  # ⚠️ Required
-    DB_NAME = os.environ.get("DB_NAME", "SnowAcceptBot")
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://madara:madara@cluster0.tjfuu1g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # ⚠️ Required
+    DB_NAME = os.environ.get("DB_NAME", "AutoAccept69")
 
     # other configs
     BOT_UPTIME = time.time()
@@ -21,11 +21,11 @@ class Config(object):
     ADMIN = int(os.environ.get('ADMIN', ''))  # ⚠️ Required
     DEFAULT_WELCOME_MSG = os.environ.get("WELCOME_MSG", "Hey {user},\nYour Request Approved ✅,\n\nWelcome to **{title}**")
     DEFAULT_LEAVE_MSG = os.environ.get("LEAVE_MSG", "By {user},\nSee You Again 👋\n\nFrom **{title}**")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))  # ⚠️ Required
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002197851838"))  # ⚠️ Required
 
     # wes response configuration
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
-    PORT = int(os.environ.get("PORT", "8080"))
+    PORT = int(os.environ.get("PORT", "8010"))
 
 
 class TxT(object):

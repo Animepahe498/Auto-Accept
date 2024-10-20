@@ -17,7 +17,7 @@ class Config(object):
 
     # other configs
     BOT_UPTIME = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://envs.sh/pqi.jpg")
+    START_PIC = os.environ.get("START_PIC", "")
     ADMIN = int(os.environ.get('ADMIN', '6199677027'))  # ⚠️ Required
     DEFAULT_WELCOME_MSG = os.environ.get("WELCOME_MSG", "Hey {user},\nYour Request Approved ✅,\n\nWelcome to **{title}**\n\nCreated By - @Anime_Bloodline")
     DEFAULT_LEAVE_MSG = os.environ.get("LEAVE_MSG", "Bye Dude🥺 {user},\nSee You Again 👋\n\nFrom **{title}**")

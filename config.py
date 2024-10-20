@@ -17,8 +17,8 @@ class Config(object):
 
     # other configs
     BOT_UPTIME = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/0ceb5f176f3cf877a08b5.jpg")
-    ADMIN = int(os.environ.get('ADMIN', ''))  # ⚠️ Required
+    START_PIC = os.environ.get("START_PIC", "https://envs.sh/pqi.jpg")
+    ADMIN = int(os.environ.get('ADMIN', '6199677027'))  # ⚠️ Required
     DEFAULT_WELCOME_MSG = os.environ.get("WELCOME_MSG", "Hey {user},\nYour Request Approved ✅,\n\nWelcome to **{title}**\n\nCreated By - @Anime_Bloodline")
     DEFAULT_LEAVE_MSG = os.environ.get("LEAVE_MSG", "Bye Dude🥺 {user},\nSee You Again 👋\n\nFrom **{title}**")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002197851838"))  # ⚠️ Required

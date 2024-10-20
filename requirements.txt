@@ -1,0 +1,7 @@
+aiohttp
+dnspython
+motor
+pyrofork
+TgCrypto
+pyproject-toml
+pytz

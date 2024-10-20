@@ -19,8 +19,8 @@ class Config(object):
     BOT_UPTIME = time.time()
     START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/0ceb5f176f3cf877a08b5.jpg")
     ADMIN = int(os.environ.get('ADMIN', ''))  # ⚠️ Required
-    DEFAULT_WELCOME_MSG = os.environ.get("WELCOME_MSG", "Hey {user},\nYour Request Approved ✅,\n\nWelcome to **{title}**")
-    DEFAULT_LEAVE_MSG = os.environ.get("LEAVE_MSG", "By {user},\nSee You Again 👋\n\nFrom **{title}**")
+    DEFAULT_WELCOME_MSG = os.environ.get("WELCOME_MSG", "Hey {user},\nYour Request Approved ✅,\n\nWelcome to **{title}**\n\nCreated By - @Anime_Bloodline")
+    DEFAULT_LEAVE_MSG = os.environ.get("LEAVE_MSG", "Bye Dude🥺 {user},\nSee You Again 👋\n\nFrom **{title}**")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002197851838"))  # ⚠️ Required
 
     # wes response configuration
@@ -47,7 +47,7 @@ class TxT(object):
 ⚠️ <b> Support HTML & Markdown formating in welcome or leave message for more info <a href=https://core.telegram.org/api/entities#:~:text=%2C%20MadelineProto.-,Allowed%20entities,-For%20example%20the> Link </a>. </b>
 
 
-<b>⦿ Developer:</b> <a href=https://t.me/Snowball_Official>ѕησωвαℓℓ ❄️</a>
+<b>⦿ Developer:</b> <a href=https://t.me/ShadowKakashi>ઝꪋઝꪋઽꫝꪱ</a>
 """
 
 class temp(object):

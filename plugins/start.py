@@ -32,7 +32,7 @@ async def handle_start(bot: Client, message: Message):
     reply_markup = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻",
-                                  url="https://t.me/Snowball_Official")],
+                                  url="https://t.me/ShadowKakashi")],
             [InlineKeyboardButton("ʜᴇʟᴘ ❗", callback_data="help")],
         ]
     )
